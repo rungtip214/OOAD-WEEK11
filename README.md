@@ -29,7 +29,7 @@ off--> [*]
 @enduml
  ```
  
- ![](http://www.plantuml.com/plantuml/img/DOwn3i8m34JtVCNDI2ax0-h05z0HCLHDGYm56oMEeluzQGkJfNjtvnkBpbdhEnabJHvJh8gRD3QFqnCssolkVdOhp74kS1qccHtn2q4oY8lckYW9b-7dsdCIGhTFZNI9e0AjcRtRvC4SpCcv_Fz1eyT7ciyxjRrWMs3CwDdrVLy0)
+ ![](http://www.plantuml.com/plantuml/img/FOx12i8m44Jl-OfbJoeqdr2A87w0lPKU5jqq8J4jwGRnxzqeU9fbPjwmmovKf3wJaI29OVGCzAB8EUJ574v7wBeUi3dMrWrDS808uZaRQDdaQrxAUmQya5XxBapHqIweiHQAqhfYEEtSW7xAgzR-q7LLXkxHsb6lMsBUy3VynG0uFu8pWqfxyWC0)
  
  ภาพที่3 การถอดรหัสคำสั่ง
  
