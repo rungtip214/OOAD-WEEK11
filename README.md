@@ -47,3 +47,45 @@ Decoding--> Ready : Decoding complete.
  ```
  
  ![](http://www.plantuml.com/plantuml/img/JOyn3i8m34Ltdy8pKiBU0NNW1Ao88OeDYfJQA765k3qjq3IJRUczB_-nMYWsJnaiMMOySrHYk1vkw8exuOK3lH5-Oq3IbsGDbEI1TosOf5gPeoMLwl-KMxHlp0f1srRvIDlLYNvd77NkiAU86aQTdfcD6-tQUnsvKHu1HXPQcdq0)
+ 
+ ภาพที่4 การอานคำสั่งจาก Memory
+ 
+  ```
+ @startuml
+title Read instruction
+[*] -r-> Ready 
+Ready : do/waiting for instructions
+Ready -r-> Reading : instruction Coming 
+Reading : do/Reading instruction from memory
+Reading -d-> Reading : Reading not com plete 
+Reading -d-> Sending: Reading complete
+Sending : do/sending instruction to CPU 
+Sending -d-> Sending : Sending not Complete 
+Sending --> Ready : Sending not complete
+
+@enduml
+  ```
+  
+  ![](http://www.plantuml.com/plantuml/img/LP0z2iCm38Ltdq9pmNJFK0AvG6dfL3gOs2c6s2goGiZjQoUEuqpwUP-UXDh0YdXoes3Beu67KHgi3qnJpnQzU5y-84dULcK1iOK6D5vdPTdwBmn8zKZ8J9bAJ5CJqA5BJN6eqMulQd0WTE2CGreABFN9TyyyClIH_es63Ppff_6fEE08hfp8odP1o4Lz0IDqznSKiFQBKtkMjdVPj8BBtyvaMI_Qs8tV_mC0)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
