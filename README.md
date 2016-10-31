@@ -90,10 +90,9 @@ Output --> Ready : Output complete
    ![](http://www.plantuml.com/plantuml/img/TP4n3y8W48LtViND9gHxXwOnSN0mJLoDGrEkIYpGm17jlnUARUdWn95xtxl7KJjgBNarC98q89m-s7b2OBV37RZb5Lon5HEmT9GWJF5k9KdzWDvOaDgHzHr9ezrFCrF99whOLivqjrupDXDniSFBhDQ6e3Dg730cp11UBV4kg8oTSklbIM97n8n7t_Teqv1pqVo1SbM8_q8SmNWQFGK0L9gNgURyJHAKsOmj-DeCTgcEVNfYsBNp0wqAlgw_N1mtbngr2F_s1G00)
  
  Activity Diagram
- 
  ภาพที่1 การตื่นนอน
  
-    ```
+   ```
  @startuml
 title The awakening 
 [*] --> Wake..up 
@@ -103,7 +102,7 @@ Eat..Breakfast -d-> [*]
 Go..Back..To..Sleep -d-> [*] 
 @enduml
    ```
-  
+   
  ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuIh9BCb9LGZ9I5L8B4_CJitBp4jNu8hMYbNGrRLJ20UAwEcL5YXmmLcwEK1nryGIFJsdejJ4xBJ4uX85AuMCqhpqeafaPKL0PUxvG5M9oTbwUY50Ld1EQce1K6rUVWbSFPf1kYb0NI3BkR1fHSWwfEQb01qF0000)
  
  
