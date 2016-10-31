@@ -1,21 +1,16 @@
 # OOAD-WEEK11
 State Diagram
 
-ภาพที่1 การสร้างและพิมพ์เอกสาร
+ภาพที่1 การชำระเงิน
+
  ```
 @startuml
-title turn on COMPUTER
+title payment
+[*] -r-> notpayyet : Create Billing
+notpayyet -r-> paid : Pay bill
+paid--> [*] : Breaking billing
 
-[*] --> OFF
-OFF : switch shut down
-OFF -r-> ON
-ON : turn on computer
-
-ON -d-> Boot : computer work
-Boot : loading System
-
-Boot -l-> Ready : boot computer into works
-Ready : computer available
-Ready --> [*]
 @enduml
  ```
+
+![](http://www.plantuml.com/plantuml/img/HOqn2e0m34Ntd2Apq0jq4D4Bk8j3n231jagDGszlsiKn_x_tCpnAMTyOG4K3uqqbSb9OkXLTTZscIoqhhEXnoapAE4e8aWxugqRU9Bj1CnNSZ81wEylhbCVHtDEirbKR1awxFVu0)
