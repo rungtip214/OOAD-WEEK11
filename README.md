@@ -154,6 +154,25 @@ pop..box..massage -l-> [*]
    ```
    ![](http://www.plantuml.com/plantuml/img/POux2iD034HxdK9rG3f02kDxX1GALioI_R4hGtBxh8N1XRjXviqmE7UJPbkAOC6YOcqX6xv3L7ZSdaYD9doLBxC7p5cIult0VcLhk3jmGRoOvAFCFdPAf6L4NVDoHAT4YZJLKfbzBqdliYfS7ETm_8DvTFVp07y0)
 
+ภาพที่5 ปรับปรุงข้อมูลส่วนบุคคล
+
+   ```
+@startuml
+title update profile
+
+(*) -r-> start..work 
+start..work--> ===B1=== 
+--> "update..screen"
+--> ===B2===
+
+===B1=== --> "processing..fee"
+--> ===B2===
+
+--> (*)
+@enduml
+   ```
+   
+   ![](http://www.plantuml.com/plantuml/img/NOx12i9034Jl-OhGameRqFjAyKzAEvN5TLkoAVrzqueYNWOUUKochTQfBSzCbYo3btde33phDAOCeiFfo473bNTFP9tqmVG3mMynnjlPWscZvjqXKdi5IaCVvU91z9Ltrn_rg3MLkyW8_CiR-GHgKGOV-G80)
 
 
 
