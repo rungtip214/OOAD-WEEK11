@@ -68,7 +68,26 @@ Sending --> Ready : Sending not complete
   
   ![](http://www.plantuml.com/plantuml/img/LP0z2iCm38Ltdq9pmNJFK0AvG6dfL3gOs2c6s2goGiZjQoUEuqpwUP-UXDh0YdXoes3Beu67KHgi3qnJpnQzU5y-84dULcK1iOK6D5vdPTdwBmn8zKZ8J9bAJ5CJqA5BJN6eqMulQd0WTE2CGreABFN9TyyyClIH_es63Ppff_6fEE08hfp8odP1o4Lz0IDqznSKiFQBKtkMjdVPj8BBtyvaMI_Qs8tV_mC0)
  
+ ภาพที่5 การประมวลผล
  
+   ```
+ @startuml
+title Execute 
+[*] -r-> Ready 
+Ready : do/waiting for instructions
+Ready -r-> Executing 
+Executing : do/cxecuting instruction
+Executing -d-> Executing : Executing not complete 
+Executing -->Ready : Memory instruction Executed 
+Executing -r-> Buffering : I/O instruction Executed 
+Buffering : do/keep output in memory 
+Buffering -d-> Output : Buffering complete 
+Output : do/Outputing the Result 
+Output --> Ready : Output complete 
+@enduml
+   ```
+   
+   ![](http://www.plantuml.com/plantuml/img/TP4n3y8W48LtViND9gHxXwOnSN0mJLoDGrEkIYpGm17jlnUARUdWn95xtxl7KJjgBNarC98q89m-s7b2OBV37RZb5Lon5HEmT9GWJF5k9KdzWDvOaDgHzHr9ezrFCrF99whOLivqjrupDXDniSFBhDQ6e3Dg730cp11UBV4kg8oTSklbIM97n8n7t_Teqv1pqVo1SbM8_q8SmNWQFGK0L9gNgURyJHAKsOmj-DeCTgcEVNfYsBNp0wqAlgw_N1mtbngr2F_s1G00)
  
  
  
