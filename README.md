@@ -122,6 +122,27 @@ else
    
  ![](http://www.plantuml.com/plantuml/img/FOx12i8m44Jl-OfbJoeqdr2A87w0lPKU5jqq8J4jwGRnxzqeU9fbPjwmmovKf3wJaI29OVGCzAB8EUJ574v7wBeUi3dMrWrDS808uZaRQDdaQrxAUmQya5XxBapHqIweiHQAqhfYEEtSW7xAgzR-q7LLXkxHsb6lMsBUy3VynG0uFu8pWqfxyWC0)
 
+ภาพที่3 บัญชีเงินเดือน
+
+   ```
+   @startuml
+title Payroll
+(*) --> "Calculate..payroll"
+if "" then
+  -->[hours<40] "Normal..payroll"
+    -r-> (*)
+else
+  ->[hours>40] "Overtime,Get..authorization"
+  --> (*)
+  endif
+@enduml
+   ```
+   
+   ![](http://www.plantuml.com/plantuml/img/JOwn3i8m34JtV8ML2H2961XHLOc13TWHWmMk6ibjAiT1WgydQHcunSFTEr-R54Npm4Q3Ci4LtnAPpMgp1kSQi4VaHsPKydvQF6j21zQ2zZGQgAbR7xEamtvt1tkECY3_XQ78IQagbOOuKML-I3CZbnU9Xe6s9rBlCMiV9NnGGnpjyc1c0MXyXiwqvTJ1Nm00)
+
+    
+
+
 
  
  
