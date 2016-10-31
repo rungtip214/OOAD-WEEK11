@@ -14,3 +14,19 @@ paid--> [*] : Breaking billing
  ```
 
 ![](http://www.plantuml.com/plantuml/img/HOqn2e0m34Ntd2Apq0jq4D4Bk8j3n231jagDGszlsiKn_x_tCpnAMTyOG4K3uqqbSb9OkXLTTZscIoqhhEXnoapAE4e8aWxugqRU9Bj1CnNSZ81wEylhbCVHtDEirbKR1awxFVu0)
+
+ภาพที่2 การปิดเครื่อง
+
+ ```
+@startuml
+title Shut Down
+[*] -r-> Ready 
+Ready : downloading for instructions.
+Ready -r-> off : Switch is turned off.
+off : do/shut Down the power.
+off--> [*] 
+
+@enduml
+ ```
+ 
+ ![](http://www.plantuml.com/plantuml/img/DOwn3i8m34JtVCNDI2ax0-h05z0HCLHDGYm56oMEeluzQGkJfNjtvnkBpbdhEnabJHvJh8gRD3QFqnCssolkVdOhp74kS1qccHtn2q4oY8lckYW9b-7dsdCIGhTFZNI9e0AjcRtRvC4SpCcv_Fz1eyT7ciyxjRrWMs3CwDdrVLy0)
