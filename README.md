@@ -112,12 +112,12 @@ Go..Back..To..Sleep -d-> [*]
 title The awakening
 (*) --> "wake..up"
 if "" then
-  -->[hungry] "Eat..Breakfast"
-    -r-> (*)
+-->[hungry] "Eat..Breakfast"
+-r-> (*)
 else
-  ->[not..hungry] "Go..Back..To..Sleep"
-  --> (*)
-  endif
+->[not..hungry] "Go..Back..To..Sleep"
+--> (*)
+endif
 @enduml
    ```
     
