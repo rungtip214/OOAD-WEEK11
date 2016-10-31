@@ -140,7 +140,21 @@ else
    
    ![](http://www.plantuml.com/plantuml/img/JOwn3i8m34JtV8ML2H2961XHLOc13TWHWmMk6ibjAiT1WgydQHcunSFTEr-R54Npm4Q3Ci4LtnAPpMgp1kSQi4VaHsPKydvQF6j21zQ2zZGQgAbR7xEamtvt1tkECY3_XQ78IQagbOOuKML-I3CZbnU9Xe6s9rBlCMiV9NnGGnpjyc1c0MXyXiwqvTJ1Nm00)
 
-    
+ภาพที่4 พิมพ์เอกสาร
+
+   ```
+   @startuml
+title print file
+[*] -r-> box..print..name : print your name
+box..print..name -r-> make..file
+make..file -d-> send..file
+send..file -l->pop..box..massage
+pop..box..massage -l-> [*]
+@enduml
+   ```
+   ![](http://www.plantuml.com/plantuml/img/POux2iD034HxdK9rG3f02kDxX1GALioI_R4hGtBxh8N1XRjXviqmE7UJPbkAOC6YOcqX6xv3L7ZSdaYD9doLBxC7p5cIult0VcLhk3jmGRoOvAFCFdPAf6L4NVDoHAT4YZJLKfbzBqdliYfS7ETm_8DvTFVp07y0)
+
+
 
 
 
