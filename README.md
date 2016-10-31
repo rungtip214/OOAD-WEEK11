@@ -105,7 +105,7 @@ Go..Back..To..Sleep -d-> [*]
    
  ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuIh9BCb9LGZ9I5L8B4_CJitBp4jNu8hMYbNGrRLJ20UAwEcL5YXmmLcwEK1nryGIFJsdejJ4xBJ4uX85AuMCqhpqeafaPKL0PUxvG5M9oTbwUY50Ld1EQce1K6rUVWbSFPf1kYb0NI3BkR1fHSWwfEQb01qF0000)
 
-ภาพที่2 การตื่นนอน
+ ภาพที่2 การตื่นนอน
 
    ```
 @startuml
@@ -119,7 +119,6 @@ else
   --> (*)
   endif
 @enduml
-
     ```
     
  ![](http://www.plantuml.com/plantuml/img/FOx12i8m44Jl-OfbJoeqdr2A87w0lPKU5jqq8J4jwGRnxzqeU9fbPjwmmovKf3wJaI29OVGCzAB8EUJ574v7wBeUi3dMrWrDS808uZaRQDdaQrxAUmQya5XxBapHqIweiHQAqhfYEEtSW7xAgzR-q7LLXkxHsb6lMsBUy3VynG0uFu8pWqfxyWC0)
